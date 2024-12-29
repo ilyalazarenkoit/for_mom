@@ -1,0 +1,29 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(to right, #fbc2eb, #a18cd1);
+  text-align: center;
+  color: white;
+}
+
+.hero {
+  padding-top: 50px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.message {
+  margin: 50px auto;
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 1.5rem;
+}

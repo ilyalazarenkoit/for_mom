@@ -1,0 +1,17 @@
+.rebusWrapper {
+  margin-top: 50px;
+}
+
+.rebusContainer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.rebusPhoto {
+  height: 250px;
+  width: 200px;
+}

@@ -1,0 +1,26 @@
+/* Photos.css */
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.photo {
+  max-width: 600px; /* Максимальная ширина 800px */
+  max-height: 600px; /* Максимальная высота 800px */
+  width: auto; /* Автоматическая ширина, чтобы сохранить пропорции */
+  height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
+  object-fit: contain; /* Сохраняет пропорции, вписывая фото в контейнер */
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+  opacity: 0;
+}
+
+.photo-container .photo {
+  opacity: 1;
+  transform: scale(1.05);
+}
