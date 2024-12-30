@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/for_mom/static/css/main.1100e7fb.css",
+    "main.js": "/for_mom/static/js/main.88051670.js",
+    "static/media/photo10.jpg": "/for_mom/static/media/photo10.8ad26a164334b0c28284.jpg",
+    "static/media/photo15.jpg": "/for_mom/static/media/photo15.b462d2fc7eb911cf25ec.jpg",
+    "static/media/photo4.jpg": "/for_mom/static/media/photo4.78c6663aeb48701c80f3.jpg",
+    "static/media/photo6.jpg": "/for_mom/static/media/photo6.bc1cc8eecb7c0d8efc19.jpg",
+    "static/media/photo7.jpg": "/for_mom/static/media/photo7.ab5aac2a9505183ccc9e.jpg",
+    "static/media/photo8.jpg": "/for_mom/static/media/photo8.31dd3af6675a5e197a38.jpg",
+    "static/media/photo1.jpg": "/for_mom/static/media/photo1.b6e0591a54a0ccdbd68b.jpg",
+    "static/media/photo2.jpg": "/for_mom/static/media/photo2.f0ed11e4ab3a49360378.jpg",
+    "static/media/photo3.jpg": "/for_mom/static/media/photo3.767a7b64bdbd5d95867c.jpg",
+    "index.html": "/for_mom/index.html",
+    "main.1100e7fb.css.map": "/for_mom/static/css/main.1100e7fb.css.map",
+    "main.88051670.js.map": "/for_mom/static/js/main.88051670.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1100e7fb.css",
+    "static/js/main.88051670.js"
+  ]
+}
