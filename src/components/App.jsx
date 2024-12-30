@@ -17,7 +17,15 @@ function App() {
       setIsPlaying(!isPlaying);
     }
   };
+
   const handleButtonClick = () => {
+    // Останавливаем музыку перед открытием видео
+    if (audioRef.current && isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    }
+
+    // Открываем видео в новой вкладке
     window.open("https://youtu.be/EKf4795q3mM", "_blank");
   };
 
@@ -44,7 +52,6 @@ function App() {
       </div>
 
       <Photos />
-      {/* <div className="footer">Я тебя очень люблю 💌</div> */}
       <div className="wrapper-footer">
         <h1>НО ЭТО ЕЩЕ НЕ ВСЕ😉</h1>
         <button className="youtube-button" onClick={handleButtonClick}>
