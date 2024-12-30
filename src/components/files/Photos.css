@@ -1,26 +1,60 @@
-/* Photos.css */
-
 .photo-container {
+  padding: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin-top: 20px;
+  width: 1000px;
+  height: 700px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  position: relative;
+  border: 2px solid transparent; /* Скрытый бордер, используем только для эффекта */
+  border-radius: 20px; /* Округленные углы */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1); /* Тени для эффекта "карточки" */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Плавная анимация при наведении */
 }
+
+.photo-wrapper {
+  text-align: center;
+}
+
 .photo {
-  max-width: 600px; /* Максимальная ширина 800px */
-  max-height: 600px; /* Максимальная высота 800px */
-  width: auto; /* Автоматическая ширина, чтобы сохранить пропорции */
-  height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
-  object-fit: contain; /* Сохраняет пропорции, вписывая фото в контейнер */
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-
   transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
-  opacity: 0;
+  margin-bottom: 30px;
 }
 
-.photo-container .photo {
-  opacity: 1;
-  transform: scale(1.05);
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: scale(0.9);
+  font-size: 2rem;
+  background: #fbc2eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.photo-text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #4a90e2;
+  font-weight: bold;
 }
